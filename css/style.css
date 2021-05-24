@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;400;500;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #fff;
+}
+
+
+
+.wrapper{
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #1C2630;
+  padding: 40px 0;
+}
+
+
+main, footer{
+  background-color: #333333;
+}
+
+h1 {
+}
+
+.wrapp__header h1 {text-align: center;margin: 10px auto;font-size: 42px;font-weight: 400;}
+
+.wrapp__header h1 img {
+    vertical-align: baseline;
+    width: 60px;
+}
+
+.wrapp__header h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    max-width: 540px;
+    margin: 20px auto 60px auto;
+    line-height: 30px;
+}
+
+.wrapp__header > img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    max-width: 120px;
+}
+
+.wrapp__header nav {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapp__header nav a img {
+    width: 30px;
+    height: 30px;
+}
+
+.wrapp__header nav a {
+    cursor: pointer;
+    margin: 0 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+main {
+  padding: 50px 0 20px 0;
+}
+
+main p {
+  max-width: 730px;
+  width: 100%;
+  margin: 0 auto 30px auto;
+  font-size: 21px;
+  text-align: center;
+  line-height: 40px;
+}
+footer img {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 0 0 50px 0px;
+}
+main p a {
+  color: #b1f400;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
